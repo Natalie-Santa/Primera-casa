@@ -1,0 +1,76 @@
+#casa {
+	width: 200px;
+	height: 180px;
+	background: red;
+	position: relative;
+	top: 200px;
+	left:45%;
+}
+#techo {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 100px solid blue;
+	position: absolute;
+	bottom: 100%;
+}
+#chimenea {
+	width: 30px;
+	height: 80px;
+	background: blue;
+	border-bottom-left-radius: 20px solid transparent;
+    position: absolute;
+    left:30px;
+}
+#puerta {
+	width: 50px;
+	height: 100px;
+	background: #A45836;
+	position: absolute;
+	bottom: 0px;
+	left: 75px;
+}
+#manilla {
+	width: 7px;
+	height: 7px;
+	background: #1DA9F4;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+	bottom: 50%;
+}
+#humop {
+	width: 10px;
+	height: 10px;
+	background: #9C5F43;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+	left: 10px;
+	bottom: 100%;
+}
+#humos {
+	width: 20px;
+	height: 20px;
+	background: #9C5F43;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+	left: 15px;
+	bottom: 110%;
+}
+#humot {
+	width: 30px;
+	height: 30px;
+	background: #9C5F43;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+	left: 35px;
+	bottom: 125%;
+}
